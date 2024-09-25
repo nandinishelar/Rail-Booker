@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <style>
+  body{
+    background-color: #1b1b2b;
+  }
+    </style>
+</head>
+<body >
+    <header>
+        <header>
+            <nav>
+             <a href="index.html" class="btn">Home</a>
+             <a href="login.html" class="btn">Login</a>
+             <a href="about-us.html" class="btn">About</a>
+             <a href="contact-us.html" class="btn">Contact Us</a>
+            </nav>
+             </header>
+        </header>
+        <main>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+            <style>
+                .form-gap {
+                padding-top: 70px;
+            }
+            </style>
+            <div class="form-gap"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4">
+                        <div class="panel panel-default">
+                          <div class="panel-body">
+                            <div class="text-center">
+                              <h3><i class="fa fa-lock fa-4x"></i></h3>
+                              <h2 class="text-center">Forgot Password?</h2>
+                              <p>You can reset your password here.</p>
+                              <div class="panel-body">
+                
+                                <form id="register-form" role="form"  action="forgotpass.php" class="form" method="post">
+                
+                                  <div class="form-group">
+                                    <div class="input-group">
+                                      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope color-blue"></i></span>
+                                      <input id="email" name="user" placeholder="email address" class="form-control"  type="email">
+                                      <input id="pass" name="pass" placeholder="enter new password" class="form-control"  type="password"  minlength="8" maxlength="12" required>
+                                      <input id="pass" name="repass" placeholder="Re-enter password" class="form-control"  type="password"  minlength="8" maxlength="12" required>
+                                    </div>
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <input name="recover-submit" class="btn btn-lg btn-primary btn-block" value="Reset Password" type="submit">
+                                  </div>
+                                  
+                                  <input type="hidden" class="hide" name="token" id="token" value=""> 
+                                </form>
+                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </main>
+        <div class="footer-dark">
+            <div class="footer-dark">
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-3 item">
+                                <h3>Services</h3>
+                                <ul>
+                                    <li><a href="#">Web design</a></li>
+                                    <li><a href="#">Web Development</a></li>
+                                    <li><a href="#">Database Management</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 col-md-3 item">
+                                <h3>About</h3>
+                                <ul>
+                                    <li><a href="#">More products</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 item text">
+                                <h3>Description</h3>
+                                <p>A website made to help people in railway ticket booking. Follow us to know more!</p>
+                            </div>
+                            <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                        </div>
+                        <p class="copyright">Runtime Terror © 2021</p>
+                    </div>
+                </footer>
+        </div>
+        
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    
+</body>
+</html>

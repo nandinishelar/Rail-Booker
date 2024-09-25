@@ -1,0 +1,48 @@
+<div class="container my-5">
+    <table class="table">
+        <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+// Retrieve "from" and "to" locations from the form
+$from = $_POST["from"];
+$to = $_POST["to"];
+
+// Perform search for trains based on "from" and "to" locations
+// Here, you would typically query a database or an API to retrieve train data
+// For demonstration purposes, we'll use dummy data
+$trainData = [
+    ["trainNumber" => "123", "departureTime" => "10:00 AM", "arrivalTime" => "12:00 PM", "price" => "$50"],
+    ["trainNumber" => "456", "departureTime" => "11:00 AM", "arrivalTime" => "1:00 PM", "price" => "$60"]
+];
+
+// Display train search results
+if (!empty($trainData)) {
+    echo "<table border='1'>
+            <tr>
+                <th>Route no.</th>
+                <th>Train No.</th>
+                <th>Station Code</th> 
+              <td>".$train["departureTime"]."</td>
+                <td>".$train["arrivalTime"]."</td>
+                <td>".$train["price"]."</td>
+              </tr>";
+    }
+
+    echo "</table>";
+} else {
+    echo "No trains found.";
+}
+ }
+ ?>
+
+    </table>
+</div>             <th>Arrival Time</th>
+                <th>Departure Time</th>
+                <th>Price</th>
+            </tr>";
+
+    foreach ($trainData as $train) {
+        echo "<tr>
+                <td>".$train["trainNumber"]."</td>
+     
+
+</div>

@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(home.jpg);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 2rem;
+    border-radius: 10px;
+    align-items: center;
+}
+
+form div input{
+            width: 30rem;
+            height: 2rem;
+            border: none;
+            border-radius: 5px;
+}
+
+form div{
+    margin-bottom: 1rem;
+    font-size: large;
+}
+
+form div label{
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+form button{
+    width: 100%;
+    height: 2rem;
+    font-size: large;
+    margin-top: 2rem;
+}
+
+
+h1{
+    font-size: 4rem;
+    color: white;
+}

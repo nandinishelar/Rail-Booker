@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="sign up.css">
+    </head>
+        <body>
+
+        <div class="sign-up-form">
+            <h1>Sign Up Now</h1>
+            <form action="db2.php" method="POST">
+             <input type="email" class="input-box" name="email" value="Email" placeholder="Your Email" required >
+             <input type="password" class="input-box"   name="pass" value="pass" placeholder="Your Password" minlength="8" maxlength="12" required >
+             <p><span><input type="checkbox"></span>I agree to the terms of services</p>
+             <input type="submit" value="Sign Up" name="Sign Up" class="btn">
+             <hr>
+             <p class="or">OR</p>
+            
+             <p>Do you have an account ?<a href="login.html">Login</a></p>
+            </form>
+        </div>
+        </body>
+</html>
